@@ -1,22 +1,29 @@
 import { Button } from "@/components/ui/button";
 import logo from "../../public/lacreola.png";
 import heroImage from "@/assets/barn.jpg";
-import video from "@/assets/barn.jpg";
+import video from "@/assets/WhatsApp Video 2025-10-16 at 1.15.02 PM.mp4";
 import { motion } from "framer-motion";
 
 
 const Hero = () => {
   return (
-    <motion.section className="relative min-h-screen flex items-center justify-center overflow-hidden" initial={{ opacity: 1 }} animate={{ opacity: 1 }} transition={{ duration: 0.4 }}>
+     <motion.section className="relative min-h-screen flex items-center justify-center overflow-hidden" initial={{ opacity: 1 }} animate={{ opacity: 1 }} transition={{ duration: 0.4 }}>
       {/* Background Video */}
       <div className="absolute inset-0">
-
-        <img src={video} />
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+         < source src={video} type="video/mp4" />
+         </video>
         {/* Fallback to image if video fails */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${heroImage})`,
+            // backgroundImage: `url(${heroImage})`,
           }}
         />
       </div>
