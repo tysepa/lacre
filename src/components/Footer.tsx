@@ -19,9 +19,9 @@ const Footer = () => {
             <div className="flex flex-col space-y-2 text-sm text-muted-foreground">
               <a href="#" className="hover:text-primary transition-colors">Home</a>
               <a href="menu" className="hover:text-primary transition-colors">Menus</a>
-              <a href="garelly" className="hover:text-primary transition-colors">Garelly</a>
+              <a href="garelly" className="hover:text-primary transition-colors">Gallery</a>
               <a href="contact" className="hover:text-primary transition-colors">Contact</a>
-              <a href="/login" className="hover:text-primary transition-colors">Login Admin</a>
+              <a href="/admin" className="hover:text-primary transition-colors">Login Admin</a>
             </div>
           </div>
           {/* Column 3: Subscription Form */}

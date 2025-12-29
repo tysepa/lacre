@@ -10,7 +10,7 @@ import Menus from "./pages/Menus";
 import Reserve from './pages/Reserve';
 import NotFound from "./pages/NotFound";
 import Gallery from "./pages/Garelly";
-import Restaurent from "./pages/Restaurent"
+import Restaurant from "./pages/Restaurent"
 import Pdf from "./pages/Pdf";
 import Contact from "./components/Contact";
 import LoginPage from "./pages/Login";
@@ -31,8 +31,8 @@ const App = () => (
           <Route path="/work-with-us" element={<WorkWithUs />} /> 
           <Route path="/menus" element={<Menus />} />
           <Route path ="/reserve" element={<Reserve/>}/>
-          <Route path="/garelly" element={<Gallery />}/>
-          <Route path="/restaurent" element={<Restaurent />}/>
+          <Route path="/gallery" element={<Gallery />}/>
+          <Route path="/restaurant" element={<Restaurant />}/>
           <Route path="/contact" element={<Contact />}/>
           <Route path="/login" element={<LoginPage/>}/>
           <Route path="*" element={<NotFound />} />
