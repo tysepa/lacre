@@ -16,16 +16,14 @@ const About = () => {
               </div>
               <div className="space-y-6 elegant-text">
                 <motion.p className="text-lg leading-relaxed text-foreground" initial={{ y: 40, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.7 }}>
-                  La Creola Restaurant, nestled in Kimihurura, overlooks the city and hills of Kigali. 
-                  We are a premier destination for discerning diners seeking the epitome of fine dining La creola cuisine.
+                  La Creola offers a warm, stylish space where good food meets good energy. With comfortable seating, attentive service, and a lively yet relaxed ambiance, it’s a place that adapts 
+                  to every moment — lunch, dinner, or late evenings. 
                 </motion.p>
                 <motion.p className="text-lg leading-relaxed text-muted-foreground" initial={{ y: 40, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8 }}>
-                  Welcome to embark on an extraordinary culinary journey like no other. As one of the best restaurants in the city, 
-                  La Creola offers a rooftop dining experience with a modern twist.
+                  Ideal for friends, couples, business dinners, and celebrations.
                 </motion.p>
                 <motion.p className="text-lg leading-relaxed text-muted-foreground" initial={{ y: 40, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.9 }}>
-                  We seek to bring our sensory dining experience with a modern twist to create 
-                  unforgettable moments for every guest.
+                  
                 </motion.p>
               </div>
               <div className="pt-6">

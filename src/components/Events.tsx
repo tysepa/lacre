@@ -97,7 +97,9 @@ const EventsPage: React.FC = () => {
             </div>
 
             {/* Glow Animation Overlay */}
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-20 transition bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 blur-3xl"></div>
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-20 transition bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 blur-3xl">
+              
+            </div>
           </motion.div>
         ))}
       </div>
@@ -109,7 +111,25 @@ const EventsPage: React.FC = () => {
         transition={{ duration: 1 }}
         className="text-center mt-16 text-gray-400 text-sm"
       >
-        <p></p>
+        <div className="px-4 sm:px-6 lg:px-8 py-10">
+  <div className="max-w-2xl mx-auto text-center">
+    
+    <h4 className="text-2xl sm:text-3xl font-semibold text-primary mb-4">
+      Description Content
+    </h4>
+
+    <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
+      Inspired by diverse culinary cultures, La Creola blends African soul with Asian finesse. Our tapas-style menu allows guests to explore a variety of flavors in one sitting, 
+      while our cocktails complement the journey with creativity and balance.
+    </p>
+
+    <p className="text-gray-600 text-md sm:text-base leading-relaxed">
+      It’s not just about food — it’s about atmosphere, rhythm, and the joy of experiencing something different.
+    </p>
+
+  </div>
+</div>
+
       </motion.div>
     </div>
   );

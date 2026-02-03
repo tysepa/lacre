@@ -40,10 +40,11 @@ const IntroSection = () => {
       <div className="md:w-1/2 w-full flex flex-col justify-center px-8 py-12 relative z-10">
         <div className="space-y-6">
           <p className="text-lg leading-relaxed">
-            La Creola is a fine-dining restaurant located within the Kigali. Our unique culinary concept seamlessly combines authenticity with innovation to create a truly immersive dining experience.
+           La Creola is a vibrant dining destination in Kigali, offering a refined fusion of African and Asian flavors. Our menu is built around sharing plates, bold tastes,
+            and creative cocktails — designed for discovery, connection, and enjoyment.
           </p>
           <p className="text-lg leading-relaxed">
-            Explore on floor of culinary delight; on arrival, be whisked up to the floor to experience the main restaurant, including live sushi and robata counters adding energy and engagement to your dining experience. Continue the journey up to the floor, to the bar, lounge, and terrace area, providing an elevated experience with unparalleled 180-degree views of Kigali.
+            Whether you’re joining us for a relaxed meal or an energetic evening, every visit is crafted to feel memorable.
           </p>
           <p className="text-lg leading-relaxed">
             Experience the full La Creola dining experience, and try our menu – meaning “I leave it up to you” in Kigali.

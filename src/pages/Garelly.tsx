@@ -144,9 +144,28 @@ export default function RestaurantGalleryPage() {
           ))}
         </div>
       </section>
+      <div className="px-4 sm:px-6 lg:px-8 py-10">
+        <div className="max-w-2xl mx-auto text-center">
 
-      {/* Footer */}
-      <Footer/>
+          <h4 className="text-2xl sm:text-3xl font-semibold text-primary mb-4">
+            Invitation Content
+          </h4>
+
+          <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
+            Join us and discover a dining experience that brings people together
+            through taste, culture, and atmosphere.
+          </p>
+
+          <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+            At <span className="font-medium text-primary">La Creola</span>, every plate
+            tells a story — and every guest is part of it.
+          </p>
+
+        </div>
+      </div>
+
+
+      <Footer />
     </div>
   );
 }
