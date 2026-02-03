@@ -1,6 +1,7 @@
 import barInterior from "@/assets/bar-interior.jpg";
 import dish1 from "@/assets/dish-1.jpg";
-import heroRestaurant from "@/assets/hero-restaurant.jpg";
+import heroRestaurant from "@/assets/IMG_6857.jpg";
+
 
 const blogPosts = [
   {
@@ -16,7 +17,7 @@ const blogPosts = [
     image: dish1,
   },
   {
-    title: "Rooftop Dining: The Best Sunset in Kigali",
+    title: "Outside Dining: The Best Sunset in Kigali",
     excerpt: "Experience the magic of rooftop dining with breathtaking views.",
     date: "June 2025",
     image: heroRestaurant,

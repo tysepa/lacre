@@ -21,7 +21,7 @@ const Navigation = () => {
               />
             </a>
             <span className="text-[10px] font-thin tracking-widest mt-[5px] text-primary">
-              `1
+              
             </span>
           </div>
 

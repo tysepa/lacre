@@ -51,7 +51,7 @@ const Menus = () => {
                     {category.description}
                   </p>
                   <Button variant="outline" size="lg" className="w-full">
-                    <a >
+                    <a href="https://maps.app.goo.gl/hf1u8W1k18fRiXow7">
                       VIEW {category.name} MENU</a>
                   </Button>
                 </div>

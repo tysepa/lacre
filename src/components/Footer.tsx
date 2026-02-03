@@ -18,9 +18,9 @@ const Footer = () => {
             <div className="text-lg font-semibold text-primary mb-2">Quick Links</div>
             <div className="flex flex-col space-y-2 text-sm text-muted-foreground">
               <a href="#" className="hover:text-primary transition-colors">Home</a>
-              <a href="menu" className="hover:text-primary transition-colors">Menus</a>
-              <a href="garelly" className="hover:text-primary transition-colors">Gallery</a>
-              <a href="contact" className="hover:text-primary transition-colors">Contact</a>
+              <a href="/menu" className="hover:text-primary transition-colors">Menus</a>
+              <a href="/garelly" className="hover:text-primary transition-colors">Gallery</a>
+              <a href="/contact" className="hover:text-primary transition-colors">Contact</a>
               <a href="/admin" className="hover:text-primary transition-colors">Login Admin</a>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-12 text-center text-xs tracking-wide text-muted-foreground">
-          <a href="http://localhost:5173/">
+          <a href="">
           © 2025 La Creola Restaurant. All rights reserved by TYS EPA.
           </a>
         </div>

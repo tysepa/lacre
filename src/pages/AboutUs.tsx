@@ -8,14 +8,6 @@ const AboutUs = () => {
   return (
     <div className="min-h-screen bg-background text-foreground mt-20">
       <Navigation />
-
-      {/* Hero Video Section */}
-
-
-      {/* Perfect Harmony Section */}
-
-
-      {/* Architecture & Design Section */}
       <section className="py-24 bg-restaurant-darker">
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
@@ -37,25 +29,29 @@ const AboutUs = () => {
               <div className="space-y-8 order-1 md:order-2">
                 <div>
                   <h2 className="text-4xl md:text-5xl font-light tracking-[0.1em] text-primary mb-4">
-                    Precision & Pleasure
+                    About La Creola
                   </h2>
                   <div className="w-16 h-px restaurant-gold-gradient mb-8" />
                 </div>
 
                 <div className="space-y-6 elegant-text">
                   <p className="text-lg leading-relaxed text-foreground">
-                    La creola concept is based on traditional of world architecture by eliminating the boundaries
-                    between the client [outdoors] and "Services" [indoors].
+                   At La Creola, we believe dining is more than just food — it’s a story, a feeling, and a journey. Located in the heart of Kigali, La Creola brings 
+                   together bold African spirit and refined Asian influence in a way that feels both familiar and refreshingly new. 
                   </p>
 
                   <p className="text-lg leading-relaxed text-muted-foreground">
-                    Natural materials, stone, and woods were used to respect the natural atmosphere of .
-                    Rwanda techniques were used such as carved wood screen.
+                    Our culinary philosophy is rooted in fusion without compromise: blending vibrant spices, fresh local ingredients, and innovative techniques to create 
+                    dishes that surprise and delight. From shareable tapas inspired by the rhythms of Africa to signature creations with an Asian twist, each plate is crafted to ignite conversation and curiosity. 
+                    We pair our food with creative cocktails and drinks, designed to complement the menu and elevate your experience — whether you’re here for an evening dinner, a relaxed lunch, or a vibrant night with friends. 
+
                   </p>
 
                   <p className="text-lg leading-relaxed text-muted-foreground">
-                    Curated by Rwandan designer, founder of Studio,
-                    creating an authentic Rwanda cultural feeling with a modern twist.
+                    But La Creola is more than a restaurant — it’s a place to gather, celebrate, and create memories. Our warm, inviting space and attentive service 
+                    reflect Rwandan hospitality at its best, welcoming locals and travelers alike. 
+                    We’re proud to be part of Kigali’s thriving culinary scene, offering a unique dining story that is rooted in culture, creativity, and connection.
+
                   </p>
                 </div>
 

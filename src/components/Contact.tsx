@@ -118,7 +118,7 @@ const Contact = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.7 }}
               >
-                <div className="aspect-[4/3] sm:aspect-square rounded-lg overflow-hidden bg-muted">
+                <div className="aspect-[2/3] sm:aspect-square rounded-lg overflow-hidden bg-muted">
                   <Map />
                 </div>
               </motion.div>

@@ -3,17 +3,20 @@ import { Button } from "@/components/ui/button";
 import menuVideo from "@/assets/menu-video.mp4";
 import Footer from "@/components/Footer";
 import dish1 from "@/assets/stock.jpeg";
-import barInterior from "@/assets/WhatsApp Image 2025-06-30 at 4.44.04 PM.jpeg";
-import beverages from "@/assets/firstb.jpeg";
-import logo from "@/assets/cocktail.jpg";
-import homes from "@/assets/food.jpg";
+import barInterior from "@/assets/La-Creola-Kigali-Rwanda-TortoisePathcom-4-jpeg.webp";
+import beverages from "@/assets/La-TortoisePathcom-8-1024x683.webp";
+import logo from "@/assets/caption.jpg";
+import homes from "@/assets/download.webp";
+import Drinks from "@/assets/Kigali-Rwanda-TortoisePathcom-11-1024x680.webp"
+import { Description } from "@radix-ui/react-toast";
 const Menus = () => {
     const menuCategories = [
         { name: "STOCK OF WINE", description: "Authentic Japanese fine dining experience", image: dish1 },
         { name: "VIEU", description: "Carefully curated wine selection", image: barInterior },
-        { name: "ROOF TOP", description: "Premium non-alcoholic beverages", image: beverages },
+        { name: "INSIDE VIEU", description: "Premium non-alcoholic beverages", image: beverages },
         { name: "COCKTAILS", description: "Signature summer-crafted cocktails", image: logo },
-        { name: "CIGARS", description: "Premium cigar collection", icon: "🚬", image: "" }
+        { name: "FOOD", description: "Premium food collection", image: homes },
+        {name:"JUICE", Description : "Premium Juice drinks", image:Drinks}
     ];
 
     return (
@@ -46,7 +49,7 @@ const Menus = () => {
                     </h2>
 
                     <p className="restaurant-subtitle mb-12 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.4s' }}>
-                        Immerse yourself in the most authentic Japanese fine dining experience in Beirut.
+                        Immerse yourself in the most authentic Asian fine dining experience in Beirut.
                     </p>
                 </div>
             </section>
@@ -61,20 +64,20 @@ const Menus = () => {
                             <div className="space-y-8">
                                 <div>
                                     <h2 className="text-4xl md:text-5xl font-light tracking-[0.1em] text-primary mb-4">
-                                        Culinary Artistry
+                                        Food & Drinks Content
                                     </h2>
                                     <div className="w-16 h-px restaurant-gold-gradient mb-8" />
                                 </div>
 
                                 <div className="space-y-6 elegant-text">
                                     <p className="text-lg leading-relaxed text-foreground">
-                                        Experience the essence of Japanese cuisine while enjoying the best sunset in Beirut city,
-                                        featuring various performances that enhance your dining experience.
+                                        Our kitchen celebrates carefully selected ingredients, modern techniques, and bold seasoning. From small plates meant for sharing to 
+                                        signature dishes that stand out, each creation reflects our passion for quality and flavor.
                                     </p>
 
                                     <p className="text-lg leading-relaxed text-muted-foreground">
-                                        Our menu showcases unexpected and surprising combinations that elevate traditional
-                                        Japanese cuisine to new heights, from smaller plates to indulgent mains.
+                                  At the bar, our mixologists craft cocktails that are playful, elegant, and perfectly paired with the menu — 
+                                  whether you prefer something refreshing, classic, or adventurous.
                                     </p>
                                 </div>
                             </div>
@@ -95,8 +98,8 @@ const Menus = () => {
                         </div>
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                             {menuCategories.map((category, index) => (
-                                <div key= {category.name} className="bg-restaurant-darker p-8 rounded-lg hover:bg-muted transition-colors flex flex-col items-center">
-                                    <img src={category.image}  className="w-full h-80 object-cover rounded mb-4" />
+                                <div key= {category.name} className="bg-restaurant-darker p-8 rounded-lg hover:bg-muted transition-colors flex flex-col items-center cursor-pointer">
+                                   <a href="https://rwanda.tortoisepath.com/place/la-creola/"> <img src={category.image}  className="w-full h-80 object-cover rounded mb-4" /></a>
                                     <h3 className="text-2xl font-light text-primary mb-1 tracking-[0.1em]">
                                         {category.name}
                                     </h3>
